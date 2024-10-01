@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: green;
+    
+}
+
+.nav-link:hover {
+    color: blue; 
+}
+.hero {
+    background-image:url(images.jpg)    ; 
+    background-size: cover; 
+    background-position: center; 
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black ; 
+    text-align: center; 
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: blue; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.hero-button:hover {
+    background-color: darkblue; 
+}
+    .menu {
+        padding: 40px 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+    
+    .menu h2 {
+        font-size: 28px;
+        color: green;
+        margin-bottom: 20px;
+    }
+    
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .menu-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu-image{
+        max-width:250px; 
+        height: 250px; 
+        box-sizing: border-box;
+    }
+
+    .menu-details{ 
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    
+    .menu-item h3 {
+        margin: 10px 0 5px;
+        color: green;
+    }
+    
+    .menu-item p {
+        margin: 5px 0;
+        max-height: 40px;
+       -webkit-box-orient: vertical;
+
+    }
+    .text-container {
+        margin-left: 16px; 
+        text-align: left; 
+    }
+        
+        
+    .container {
+            max-width: 1200px; 
+            margin: 16px;; 
+        }
+        
+    
+    .read-more {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+  
+    .restaurant-info {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px; 
+        padding: 20px;
+    }
+    
+    .image-container img {
+        max-width: 250pxx; 
+        height: 250; 
+    }
+    
+    .container {
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+   
+   
+    
+    
+    .container {
+        background-color: #ffffff;
+        border-radius: 8px; 
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); 
+        padding: 30px; 
+        max-width: 600px; 
+        margin: auto; 
+    }
+    
+    h2 {
+        margin-bottom: 20px; 
+        color: green; 
+        text-align: center; 
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        font-weight: bold; 
+        color: #495057; 
+        display: block; 
+        margin-bottom: 5px;
+    }
+    
+    .form-control {
+        border: 1px solid #ced4da; 
+        border-radius: 4px; 
+        width: 100%; 
+        padding: 10px; 
+    }
+    
+    .form-control:focus {
+        border-color: #007bff; /
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    }
+    
+    .btn-primary {
+        background-color: #007bff; 
+        border-color: #007bff;
+        width: 100%; 
+    }
+    
+    .btn-primary:hover {
+        background-color: #1876db; 
+        border-color: #0056b3; 
+    }
+    
+    @media (max-width: 576px) {
+        .container {
+            padding: 20px; 
+        }
+    }
+           
+    
+    

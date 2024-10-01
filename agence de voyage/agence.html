@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencev.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <title>Agence de Voyage</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">VoyagePlus</a>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Accueil</a>
+                <a class="nav-link" href="#">Destinations</a>
+                <a class="nav-link" href="#">Circuits</a>
+                <a class="nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    
+<div class="offers">
+    <h2 class="titre-offres">Nos Offres</h2>
+    <div class="offer-card">
+        <h3 class="titre-voyage">Voyage à Paris</h3>
+        <p class="price">À partir de 599 DN</p>
+        <button>Réserver</button>
+    </div>
+    <div class="offer-card">
+        <h3 class="titre-voyage">Séjour à Londres</h3>
+        <p class="price">À partir de 499 DN</p>
+        <button>Réserver</button>
+    </div>
+</div>
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1>Découvrez les merveilles du monde</h1>
+        <p>Explorez des destinations pittoresques et créez des souvenirs inoubliables.</p>
+        <a href="#" class="btn-cta">Réservez Maintenant</a>
+    </div>
+</div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="sant.jpg" alt="Santorin, Grèce">
+            <h3>Santorin, Grèce</h3>
+            <p>Île célèbre pour ses maisons blanches et ses couchers de soleil à couper le souffle.
+                 <br>Idéale pour les amoureux et les aventuriers.</p>
+        </div>
+        <div class="grid-item">
+            <img src="koyot.jpg" alt="Kyoto, Japon">
+            <h3>Kyoto, Japon</h3>
+            <p>Ville historique connue pour ses temples anciens, ses jardins zen et ses cerisiers en fleurs. 
+            <br> Un mélange parfait de tradition et de modernité.</p>
+        </div>
+        <div class="grid-item">
+            <img src="maroc.jpg" alt="Marrakech, Maroc">
+            <h3>Marrakech, Maroc</h3>
+            <p>Ville vibrante, pleine de couleurs et d’épices, célèbre pour ses souks, 
+                <br>ses palais et ses jardins luxuriants. Une immersion dans la culture marocaine.</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Voyage à Paris
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Profitez de la magie de Paris avec une visite des monuments emblématiques. 
+                        <a href="#" class="btn btn-primary mt-2">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Séjour à Londres
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Explorez les sites historiques de Londres avec un guide expert. 
+                        <a href="#" class="btn btn-primary mt-2">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Aventure à Tokyo
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Plongez dans la culture unique de Tokyo avec des visites guidées immersives. 
+                        <a href="#" class="btn btn-primary mt-2">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+        
+                   
+
+<form class="contact-form">
+    <label for="name">Nom</label>
+    <input type="text" id="name" required>
+  
+    <label for="email">Adresse électronique</label>
+    <input type="email" id="email" required>
+  
+    <label for="destination">Destination d'intérêt</label>
+    <select id="destination" required>
+      <option value="">Choisir...</option>
+      <option value="paris">Paris</option>
+      <option value="new-york">New York</option>
+      <option value="tokyo">Tokyo</option>
+    </select>
+  
+    <label for="message">Message</label>
+    <textarea id="message" rows="3" required></textarea>
+  
+    <button type="submit">Envoyer</button>
+  </form>
+  
+  <footer>
+    <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+
+
+</body>
+</html>
+
+
+
+
+
+
